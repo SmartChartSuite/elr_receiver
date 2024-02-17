@@ -1,0 +1,4 @@
+[submodule "hl7v2-to-fhir"]
+	path = hl7v2-to-fhir
+	url = https://github.com/HISB-Libraries/hl7v2-to-fhir.git
+	branch = main
