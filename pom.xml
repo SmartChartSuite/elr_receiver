@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>edu.gatech.chai</groupId>
+	<artifactId>elr_receiver</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0</version>
+	<name>ELR Receiver</name>
+	<url>https://github.com/SmartChartSuite/elr_receiver</url>
+
+	<organization>
+		<name>Georgia Tech Research Institute - CHAI</name>
+		<url>http://www.gtri.gatech.edu</url>
+	</organization>
+
+	<repositories>
+		<repository>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>bintray-dnault-maven</id>
+			<name>bintray</name>
+			<url>https://dl.bintray.com/dnault/maven</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<description>OMOPonFHIR STU3 Server Build</description>
+
+	<modules>
+		<module>hl7v2-to-fhir</module>
+		<module>hl7v2-to-fhir-mllp</module>
+	</modules>
+
+	<licenses>
+		<license>
+			<name>Apache Software License 2.0</name>
+			<url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+</project>
